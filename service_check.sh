@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "i am working!"
-
 status=`systemctl status jenkins.service | awk NR==3 | cut -d ":" -f 2 | cut -d "(" -f 1`
 
 #echo $status
