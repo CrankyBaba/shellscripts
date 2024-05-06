@@ -11,7 +11,7 @@ else
     echo "jenkis is not running!"
     echo "_______________________"
     echo "starting jenkins service now!!"
-    systemctl start jenkins.service
+    systemctl start --no-block jenkins.service
 
 fi
                                                                                                                                                                                                       
